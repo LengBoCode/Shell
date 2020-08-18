@@ -1,0 +1,19 @@
+{
+  "project": {
+    "useSource": false,
+    "modules": [
+      {
+        "groupId": "com.byron",
+        "artfactId": "business_a",
+        "version": "1.0.0",
+        "useSource": true
+      },
+      {
+        "groupId": "com.byron",
+        "artfactId": "business_b",
+        "version": "1.0.0",
+        "useSource": false
+      }
+    ]
+  }
+}

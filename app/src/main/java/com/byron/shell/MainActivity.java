@@ -1,0 +1,41 @@
+package com.byron.shell;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+import com.byron.business_a.AUtils;
+import com.byron.business_b.BUtils;
+
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        findViewById(R.id.net).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, com.byron.business_a.MainActivity.class);
+//                startActivity(intent);
+//                BUtils.sayHello(MainActivity.this);
+                AUtils.sayHello(MainActivity.this);
+
+            }
+        });
+
+        findViewById(R.id.db).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, com.byron.business_a.MainActivity.class);
+//                startActivity(intent);
+//                BUtils.sayHello(MainActivity.this);
+                BUtils.sayHello(MainActivity.this);
+
+            }
+        });
+    }
+}
