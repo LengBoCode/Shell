@@ -1,0 +1,12 @@
+[submodule "modules/base"]
+	path = modules/base
+	url = https://github.com/LengBoCode/base.git
+[submodule "modules/app"]
+	path = modules/app
+	url = https://github.com/LengBoCode/app.git
+[submodule "modules/business_a"]
+	path = modules/business_a
+	url = https://github.com/LengBoCode/business_a.git
+[submodule "modules/business_b"]
+	path = modules/business_b
+	url = https://github.com/LengBoCode/business_b.git

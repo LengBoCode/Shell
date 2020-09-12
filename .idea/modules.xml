@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shell.iml" filepath="$PROJECT_DIR$/shell.iml" group="Shell" />
+      <module fileurl="file://$PROJECT_DIR$/modules/app/app.iml" filepath="$PROJECT_DIR$/modules/app/app.iml" group="Shell/app" />
+      <module fileurl="file://$PROJECT_DIR$/modules/base/base.iml" filepath="$PROJECT_DIR$/modules/base/base.iml" group="Shell/base" />
+      <module fileurl="file://$PROJECT_DIR$/modules/business_a/business_a.iml" filepath="$PROJECT_DIR$/modules/business_a/business_a.iml" group="Shell/business_a" />
+      <module fileurl="file://$PROJECT_DIR$/modules/business_b/business_b.iml" filepath="$PROJECT_DIR$/modules/business_b/business_b.iml" group="Shell/business_b" />
+      <module fileurl="file://$PROJECT_DIR$/modules/app/modules-app.iml" filepath="$PROJECT_DIR$/modules/app/modules-app.iml" group="Shell/app" />
+      <module fileurl="file://$PROJECT_DIR$/modules/base/modules-base.iml" filepath="$PROJECT_DIR$/modules/base/modules-base.iml" group="Shell/base" />
+    </modules>
+  </component>
+</project>

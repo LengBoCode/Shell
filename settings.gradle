@@ -1,2 +1,29 @@
-rootProject.name='Shell'
-include ':app'
+
+
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url uri('../repo')
+        }
+    }
+    dependencies {
+        classpath group: 'com.byron', name: 'mainplugin', version: '1.0.0'
+    }
+}
+
+
+apply plugin: "com.byron.mainplugin"
+
+rootProject.name = 'Shell'
+
+include ":app"
+
+
+
+
+
+

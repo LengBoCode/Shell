@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.byron:net:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc4243ffb9068be070092a3cce584b0a/jetified-net-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc4243ffb9068be070092a3cce584b0a/jetified-net-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../repo/com/byron/net/1.0.0/net-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

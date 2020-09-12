@@ -1,18 +1,36 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+//apply plugin: 'com.byron.mainplugin'
+
+apply plugin: "com.byron.mainplugin"
+
+
 
 buildscript {
-    
+
     repositories {
         google()
         jcenter()
-        
+        maven {//local maven repo path
+            url '../repo'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
-        
+        classpath group: 'com.byron', name: 'mainplugin', version: '1.0.0'
+        classpath 'org.json:json:20180130'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+    }
+}
+
+subprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {//local maven repo path
+            url '../../../repo'
+        }
     }
 }
 
@@ -29,14 +47,16 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-def file = new File(rootDir.path + "/version.config");
-FileReader fileReader = new FileReader(file)
-BufferedReader reader = new BufferedReader(fileReader);
-String line = reader.readLine();
-while (line != null && line.length() > 0) {
-    String name = line.split("=")[0]
-    String imple = line.split("=")[1]
-    ext.set(name, imple)
-    line = reader.readLine()
-}
+//import org.json.*
+//
+//def file = new File(rootDir.path + "/version.config.json.json");
+//JSONOArray object = new JSONArray(file.text);
+//FileReader fileReader = new FileReader(file)
+//BufferedReader reader = new BufferedReader(fileReader);
+//String line = reader.readLine();
+//while (line != null && line.length() > 0) {
+//    String name = line.split("=")[0]
+//    String imple = line.split("=")[1]
+//    ext.set(name, imple)
+//    line = reader.readLine()
+//}

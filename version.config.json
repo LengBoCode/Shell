@@ -1,0 +1,49 @@
+[
+  {
+    "groupId": "com.byron",
+    "artfactId": "app",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/app.git",
+    "useSource": true,
+    "branch": "master"
+  },
+  {
+    "groupId": "com.byron",
+    "artfactId": "business_a",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/business_a.git",
+    "useSource": true,
+    "branch": "master"
+  },
+  {
+    "groupId": "com.byron",
+    "artfactId": "business_b",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/business_b.git",
+    "useSource": true,
+    "branch": "master"
+  },
+  {
+    "groupId": "com.byron",
+    "artfactId": "base",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/base.git",
+    "useSource": true,
+    "branch": "master"
+  },
+  {
+    "groupId": "com.byron",
+    "artfactId": "net",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/net.git",
+    "useSource": false,
+    "branch": "master"
+  },
+  {
+    "groupId": "com.byron",
+    "artfactId": "db",
+    "version": "1.0.0",
+    "location": "https://github.com/LengBoCode/db.git",
+    "useSource": false
+  }
+]

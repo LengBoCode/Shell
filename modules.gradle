@@ -1,0 +1,28 @@
+
+//import org.json.JSONArray
+//import org.json.JSONObject
+//def file = new File("version_config.json");
+//JSONArray jsonArray = new JSONArray(file.text)
+//for (int i = 0; i < jsonArray.length(); i++) {
+//    JSONObject item = jsonArray.get(i);
+//    boolean useSource = item.optBoolean("useSource");
+//    if (useSource) {
+//        def component = item.optString("artfactId");
+//        def component_path = "./modules/"+component
+//        include(":" + component)
+//        project(":" + component).projectDir = new File(component_path)
+//    }
+//}
+
+//gradle.settingsEvaluated {
+//    file('modules').eachDir { dir ->
+//        include dir.name
+//        project(":${dir.name}").projectDir = dir
+//    }
+//}
+
+
+//def file = new File("./modules/modules.config.json");
+//String content = file.text;
+//println(content)
+
